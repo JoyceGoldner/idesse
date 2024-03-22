@@ -1,0 +1,21 @@
+{
+    "extends": "../tsconfig.settings.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./lib-umd",
+        "declarationDir": "./types",
+        "types": [
+            "node",
+            "mocha",
+            "chai"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "references": [
+        {
+            "path": "../util"
+        }
+    ]
+}

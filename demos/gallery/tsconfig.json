@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./src-umd",
+        "target": "es5",
+        "module": "umd",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "noEmitOnError": false,
+        "noUnusedLocals": true,
+        "strictNullChecks": false,
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise",
+            "es2015.iterable"
+        ],
+        "types": []
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

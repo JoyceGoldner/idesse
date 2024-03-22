@@ -1,0 +1,12 @@
+.common_SVGZoomWidget .zoomBackground {
+    pointer-events: all;
+    fill: none;
+}
+
+.common_SVGZoomWidget rect.marqueeSelection {
+    stroke: gray;
+    stroke-dasharray: 4px;
+    stroke-opacity: 0.75;
+    fill: transparent;
+    pointer-events: none;
+}

@@ -1,0 +1,22 @@
+.layout_Border2 {
+    display: flex;
+    flex-direction: column;
+}
+.layout_Border2 > .body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+}
+
+.layout_Border2 > .body > .center {
+    flex: 1;
+}
+
+.layout_Border2 > .header {
+    display: block;
+}
+
+.layout_Border2 > .footer {
+    display: block;
+}

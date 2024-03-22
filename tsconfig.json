@@ -1,0 +1,10 @@
+{
+  "extends": "./components/tsconfig.settings.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declarationDir": "./types"
+  },
+  "include": [
+    "./src/index.ts"
+  ]
+}

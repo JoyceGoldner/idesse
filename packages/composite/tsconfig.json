@@ -1,0 +1,40 @@
+{
+    "extends": "../tsconfig.settings.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./lib-umd",
+        "declarationDir": "./types",
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "references": [
+        {
+            "path": "../api"
+        },
+        {
+            "path": "../chart"
+        },
+        {
+            "path": "../common"
+        },
+        {
+            "path": "../dgrid"
+        },
+        {
+            "path": "../form"
+        },
+        {
+            "path": "../html"
+        },
+        {
+            "path": "../layout"
+        },
+        {
+            "path": "../other"
+        },
+        {
+            "path": "../phosphor"
+        }
+    ]
+}

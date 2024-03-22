@@ -1,0 +1,29 @@
+{
+    "extends": "../tsconfig.settings.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./lib-umd",
+        "declarationDir": "./types"
+    },
+    "include": [
+        "./src/**/*",
+        "pluginsXXX"
+    ],
+    "references": [
+        {
+            "path": "../api"
+        },
+        {
+            "path": "../common"
+        },
+        {
+            "path": "../graph"
+        },
+        {
+            "path": "../layout"
+        },
+        {
+            "path": "../other"
+        }
+    ]
+}

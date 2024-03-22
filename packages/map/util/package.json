@@ -1,0 +1,19 @@
+{
+    "name": "euroTopo",
+    "version": "0.0.0",
+    "description": "",
+    "main": "calcIDs.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "fs": "0.0.2",
+        "async": "3.2.3",
+        "request": "2.88.2",
+        "d3": "3",
+        "topojson": "1.6.19",
+        "update": "npx npm-check-updates -u -t minor"
+    }
+}

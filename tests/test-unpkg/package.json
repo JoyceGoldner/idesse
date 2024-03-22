@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@hpcc-js/test-unpkg",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hpcc-js/api": "^2.7.10",
+    "@hpcc-js/chart": "^2.18.0",
+    "@hpcc-js/common": "^2.17.0",
+    "@hpcc-js/dgrid": "^2.5.1",
+    "@hpcc-js/dgrid-shim": "^2.10.2",
+    "@hpcc-js/map": "^2.7.11",
+    "@hpcc-js/other": "^2.12.10",
+    "@hpcc-js/phosphor": "^2.12.4",
+    "d3-array": "^1",
+    "d3-random": "^1"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "Apache-2.0"
+}

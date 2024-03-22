@@ -1,0 +1,25 @@
+{
+    "extends": "../tsconfig.settings.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./lib-umd",
+        "declarationDir": "./types",
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "references": [
+        {
+            "path": "../common"
+        },
+        {
+            "path": "../ddl-shim"
+        },
+        {
+            "path": "../dgrid-shim"
+        },
+        {
+            "path": "../util"
+        }
+    ]
+}
